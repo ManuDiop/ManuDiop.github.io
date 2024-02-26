@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
 }
 
 .header {
@@ -69,13 +70,20 @@ body {
 }
 
 .footer {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    left: 15px;
     background-color: whitesmoke;
     height: 30px;
     border-radius: 10px;
     color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-right: 10px;
+}
+
+.footer__span {
+    display: block;
+    text-align: center;
 }
 
 

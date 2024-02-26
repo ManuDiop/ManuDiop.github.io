@@ -90,10 +90,6 @@ body {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    right: 15px;
-    left: 15px;
     background-color: whitesmoke;
     height: 30px;
     border-radius: 10px;

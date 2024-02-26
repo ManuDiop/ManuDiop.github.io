@@ -3,6 +3,7 @@ body {
     color: whitesmoke;
     font-family: 'Anaheim', sans-serif;
     margin: 0 20px 0 20px;
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -36,6 +37,10 @@ body {
 }
 
 .main {
+    display: flex;    
+}
+
+.main__wrapper1 {
     background-color: whitesmoke;
     color: #333;
     margin-top: 50vh;
@@ -46,6 +51,21 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 20px;
+    width: 50%;
+    margin-right: 1px;
+}
+
+.main__wrapper2 {
+    background-color: whitesmoke;
+    color: #333;
+    margin-top: 50vh;
+    transform: translateY(-70%);
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
 }
 
 .main__title__h1 {
@@ -84,6 +104,7 @@ body {
 .footer__span {
     display: block;
     text-align: center;
+    margin-top: 10px;
 }
 
 
